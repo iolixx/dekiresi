@@ -1,0 +1,157 @@
+@charset "UTF-8";
+@media (max-width: 960px) {
+
+    .feature-item {
+    width: 45%;
+    margin-bottom: 30px;
+    }
+
+    .feature-ttl .feature-img {
+        width: 75%;
+    }
+
+  }
+  
+  
+  /* スマートフォン向けレイアウト */
+  @media (max-width: 670px) {
+    .ttl {
+        width: 70%;
+        margin-top: 30px;
+    }
+
+    .kv-contents {
+        background-image: url(../images/kv_woman_60.png);
+    }
+
+    .kv-left {
+        width: 100%;
+    }
+
+    .kv-ttl{
+        margin-top: 170px;
+    }
+
+    .kv-logo {
+        width: 80%;
+        margin: 10px auto;
+    }
+    
+    .kv-right {
+        position:static;
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+
+    .kv-btn{
+        font-size: 14px;
+        padding: 15px 30px;
+        margin-bottom: 10px;
+    }
+
+    .nav-list {
+        flex-wrap: wrap;
+    }
+
+    .nav-item{
+        width: 50%;
+        border: 0.5px solid #fff;
+    }
+
+    .concept-ttl {
+        font-size: 24px;
+    }
+
+    .concept-sub {
+        font-size: 16px;
+    }
+
+    .concept-left {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .concept-right {
+        width: 90%;
+        margin-top: 20px;
+        margin: 0 auto;
+    }
+
+    .feature-item {
+        width: 80%;
+    }
+
+    .feature-ttl .feature-img {
+        width: 60%;
+    }
+
+    .choice-ttl {
+        width: 80%;
+    }
+
+    .choice-img {
+        width: 95%;
+    }
+
+    .product-ttl {
+        font-size: 20px;
+    }
+
+    .product-item {
+        width: 100%;
+    }
+
+    .product-rank{
+        width: 100%;
+    }
+
+    .product-txt{
+        width: 90%;
+    }
+
+    .rank-content a {
+        margin: 0 auto;
+    }
+
+
+    .new_img {
+        width: 60%;
+    }
+
+    .rank_img {
+        width: 80%;
+    }
+
+    .user-ttl {
+        font-size: 16px;
+    }
+
+    .add {
+        font-size: 12px;
+    }
+
+    .message-wrap {
+        width: 100%;
+    }
+
+    .last-btn {
+        margin-top: 20px;
+    }
+
+    #page-top{
+        width: 40px;
+        height: 40px;
+        text-indent: -9999px;
+        opacity: 1;
+        border: none;
+        background: none;
+        bottom: 10px;
+        right: 10px;
+    }
+    
+    #page-top::before{
+        bottom: 0;
+    }
+
+}
