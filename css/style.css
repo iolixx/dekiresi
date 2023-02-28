@@ -96,11 +96,11 @@ img {
     border-radius: 10px;
     padding: 15px 50px;
     background-color: #FFD12E;
-    color: #000;
+    color: #3f3d56;    ;
 }
 
 .kv-btn:hover {
-    background-color: #000;
+    background-color: #3f3d56;
     color: #fff;
 }
 
@@ -129,7 +129,7 @@ img {
 }
 
 .nav-item a:hover{
-    color: #000000;
+    color: #3f3d56;
   }
 
 .nav-item + .nav-item {
@@ -433,13 +433,13 @@ img {
     border-radius: 10px;
     padding: 10px 30px;
     background-color: #FFD12E;
-    color: #000;
+    color: #3f3d56;
     margin-top: 15px;
     font-size: 16px;
 }
 
 .product-btn:hover {
-    background-color: #000;
+    background-color: #3f3d56;
     color: #fff;
 }
 
@@ -570,12 +570,12 @@ img {
     border-radius: 10px;
     padding: 10px 20px;
     background-color: #FFD12E;
-    color: #000;
+    color: #3f3d56;
     font-size: 14px;
 }
 
 .last-btn:hover {
-    background-color: #000;
+    background-color: #3f3d56;
     color: #fff;
 }
 
@@ -635,3 +635,6 @@ img {
     opacity: 1;
 }
 
+.feature-txt span {
+    font-size: 20px;
+}

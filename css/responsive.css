@@ -20,7 +20,12 @@
         margin-top: 30px;
     }
 
+    .kv{
+        height: 400px;
+    }
+
     .kv-contents {
+        height: 400px;
         background-image: url(../images/kv_woman_60.png);
     }
 
@@ -30,18 +35,18 @@
 
     .kv-ttl{
         margin-top: 170px;
+        width: 95%;
+        transform: rotate(7.5deg);
     }
 
     .kv-logo {
-        width: 80%;
-        margin: 10px auto;
+        display: none;
     }
     
     .kv-right {
         position:static;
         text-align: center;
-        margin-top: 20px;
-        margin-right: 10px;
+        margin-top: 30px;
     }
 
     .kv-btn{
