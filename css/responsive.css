@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 @media (max-width: 960px) {
 
@@ -15,18 +16,29 @@
   
   /* スマートフォン向けレイアウト */
   @media (max-width: 670px) {
+    .header-img {
+      display:none;
+      }
+
+	.header-img2 {
+        display:block;
+        height: 35px;
+        margin-top: 10px;
+        margin-left: 10px;
+	}
+      
     .ttl {
         width: 70%;
         margin-top: 30px;
     }
 
     .kv{
-        height: 400px;
+        height: 300px;
     }
 
     .kv-contents {
-        height: 400px;
-        background-image: url(../images/kv_woman_60.png);
+        height: 300px;
+        background-image: url(https://rc.tecomgroup.jp/tp/img/ishihara/lp/images/kv_woman_res.png);
     }
 
     .kv-left {
@@ -34,7 +46,7 @@
     }
 
     .kv-ttl{
-        margin-top: 160px;
+        margin-top: 60px;
         width: 95%;
         transform: rotate(7.5deg);
     }
@@ -54,16 +66,13 @@
         padding: 15px 30px;
         margin-bottom: 10px;
     }
-
-    .nav-list {
-        flex-wrap: wrap;
-    }
+      
 
     .nav-item{
         width: 50%;
         border: 0.5px solid #fff;
     }
-
+      
     .concept-ttl {
         font-size: 24px;
     }
