@@ -1,6 +1,11 @@
 
 @charset "UTF-8";
 @media (max-width: 960px) {
+	
+.concept-wrap {
+    width: 94%;
+    margin:0 auto;
+    }
 
     .feature-item {
     width: 45%;
