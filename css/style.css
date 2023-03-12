@@ -183,6 +183,10 @@ img {
     text-align: center;
 }
 
+.sample_video {
+    width: 490px;
+}
+
 .youtube {
     width: 100%;
     aspect-ratio: 16/9 ;
